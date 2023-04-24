@@ -1,4 +1,6 @@
 import React from 'react'
+import '../Css/Hero.css'
+import image from '../Assets/restauranfood.jpg'
 
 export default function Hero() {
   return (
@@ -9,7 +11,7 @@ export default function Hero() {
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         <button><a href="/reservation">Reserve Table</a></button>
         </div>
-        <img src="" alt="" />
+        <img className='heroImage' src={image} alt="" />
     </div>
   )
 }

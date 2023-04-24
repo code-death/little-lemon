@@ -13,7 +13,7 @@ nav > ul {
 .sectionLink {
     padding: 3px 25px;
     list-style: none;
-    font-family: 'Karla';
+    font-family: 'Karla', serif;
     font-weight: 500;
     font-size: 18pt;
 }

@@ -1,0 +1,55 @@
+.hero {
+    background-color: #495e57;
+    display: flex;
+    padding: 10px 100px;
+    height: 350px;
+}
+.heroImage {
+    width: 350px;
+    height: 400px;
+    border-radius: 16px;
+    position: absolute;
+    right: 120px;
+    margin-top: 30px;
+}
+
+.heroText>h1 {
+    font-size: 64pt;
+    font-family: 'Markazi Text', serif;
+    color: #f4ce14;
+    margin: 10px 0px 0px 0px;
+}
+.heroText>h3 {
+    font-size: 40pt;
+    font-family: 'Markazi Text', serif;
+    color: #edefee;
+    margin: -30px 0 0 0;
+    font-weight: 300;
+}
+.heroText>p {
+    font-family: 'Karla', serif;
+    margin-top: 10px;
+    width: 400px;
+    color: #edefee;
+    font-weight: 600;
+}
+.heroText>button {
+    font-family: 'Karla', serif;
+    margin-top: 10px;
+    width: 328px;
+    height: 56px;
+    color: #edefee;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 12px;
+    margin-top: 30px;
+    background-color: #f4ce14;
+    cursor: pointer;
+    border: none;
+}
+.heroText>:hover {
+    box-shadow: 2px 2px 10px -4px #f4ce14 ;
+}
+.heroText>button:focus {
+    border:none;
+}
