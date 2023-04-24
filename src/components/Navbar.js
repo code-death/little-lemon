@@ -5,7 +5,7 @@ import logo from '../Assets/Logo.svg'
 export default function Navbar() {
   return (
     <nav>
-        <img src={logo} alt="logo" />
+        <a href=""><img src={logo} alt="logo" /></a>
         <ul className='sectionLinks'>
             <li className='sectionLink'><a href="#home">Home</a></li>
             <li className='sectionLink'><a href="#home">About</a></li>
