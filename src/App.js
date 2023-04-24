@@ -2,6 +2,8 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Specials from './components/Specials';
 import Testimonials from './components/Testimonials';
+import About from './components/About';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Hero />
       <Specials />
       <Testimonials />
+      <About />
+      <Footer />
     </div>
   );
 }
