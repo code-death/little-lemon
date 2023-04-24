@@ -1,9 +1,11 @@
 import React from 'react'
+import '../Css/Navbar.css'
+import logo from '../Assets/Logo.svg'
 
 export default function Navbar() {
   return (
     <nav>
-        <img src="" alt="little lemon logo" />
+        <img src={logo} alt="logo" />
         <ul className='sectionLinks'>
             <li className='sectionLink'><a href="#home">Home</a></li>
             <li className='sectionLink'><a href="#home">About</a></li>

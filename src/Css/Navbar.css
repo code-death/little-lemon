@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 30px;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionLink {
+    padding: 3px 25px;
+    list-style: none;
+    font-family: 'Karla';
+    font-weight: 500;
+    font-size: 18pt;
+}
+a {
+    text-decoration: none;
+    color: #333333;
+}
