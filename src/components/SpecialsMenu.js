@@ -3,21 +3,21 @@ import React from "react";
 const food = [
     {
       foodName: "Greek Salad",
-      price: `$ + ${12.99}`,
+      price: `$ ${12.99}`,
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         image: "http://placehold.it/",
     },
     {
       foodName: "Roman Salad",
-      price: `$ + ${12.99}`,
+      price: `$ ${12.99}`,
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         image: "http://placehold.it/",
     },
     {
       foodName: "Indian Salad",
-      price: `$ + ${12.99}`,
+      price: `$ ${12.99}`,
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         image: "http://placehold.it/",

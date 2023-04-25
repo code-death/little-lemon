@@ -1,0 +1,47 @@
+.specials {
+    padding: 0 120px 0 100px;
+}
+
+.specialsTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.specialsTop>h2 {
+    font-size: 48pt;
+    font-family: 'Markazi Text', serif;
+    font-weight: 400;
+}
+.specialsTop>button {
+    font-family: 'Karla', serif;
+    width: 340px;
+    height: 56px;
+    color: #edefee;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 12px;
+    background-color: #f4ce14;
+    cursor: pointer;
+    border: none;
+}
+.specialsTop>button:hover {
+    box-shadow: 2px 2px 10px -4px #f4ce14 ;
+}
+.specialsTop>button:focus {
+    border:none;
+}
+
+.specialsMenu {
+    display: flex;
+}
+.foodItem {
+    background-color: #edefee;
+    border-radius: 16px;
+    padding: 20px 20px;
+    margin-right: auto;
+}
+.namePriceBar {
+    display: flex;
+    justify-content: space-between;
+}
